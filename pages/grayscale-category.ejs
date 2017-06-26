@@ -1,0 +1,16 @@
+  <h2>GRAYSCALE CATEGORY</h2>
+
+
+<ul>
+<%  colorsArray.forEach((color)=>{ %>
+  <%  if(color.category==='grayscale'){ %>
+      <div class='allColors' style="background-color: <%= color.hex %>">  %>
+        <li>
+    <%=      color.keyword; %>
+      <%=    color.hex; %>
+        </li>
+
+      </div>
+  <%  } %>
+<%  });  %>
+</ul>

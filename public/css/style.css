@@ -1,0 +1,28 @@
+.allColors{
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  border-radius: 50px;
+}
+
+.allColors li{
+  list-style-type: none;
+  padding-top: 200px;
+}
+
+.allColors .rand{
+  width: 500px;
+  height: 50px;
+}
+
+.random{
+  width: 500px;
+  height: 500px;
+  display: inline-block;
+  border-radius: 50px;
+}
+
+.random li{
+  list-style-type: none;
+  padding-top: 500px;
+}

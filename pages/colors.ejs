@@ -1,0 +1,15 @@
+<h2>COLOR PALLET</h2>
+
+
+
+<ul>
+  <% colorsArray.forEach((color)=>{ %>
+    <div class="allColors" style="background-color: <%= color.hex %>">
+      <li id="pallet"><%= color.keyword; %>
+      <%= color.hex; %>
+      <%= color.category; %></li></div>
+<% }) %>
+</ul>
+
+
+}
